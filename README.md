@@ -38,7 +38,7 @@ Este proyecto sigue los principios de **Clean Architecture** para una mejor sepa
 - **ORM:** Entity Framework Core (Fluent API)
 - **Arquitectura:** Clean Architecture
 - **Frontend:** React
-- **IA (Futuro):** Integración con modelos de lenguaje o algoritmos de aprendizaje adaptativo
+- **IA:** Integración con modelos de lenguaje o algoritmos de aprendizaje adaptativo
 
 ---
 
@@ -62,7 +62,7 @@ Este proyecto sigue los principios de **Clean Architecture** para una mejor sepa
 2. **Actualizar cadena de conexión en archivo de configuracion .env:**
    ```bash
   
-     DB_CONNECTION="Server=localhost;Database=FlashcardsApp;Trusted_Connection=True;"
+     DB_CONNECTION="Server=localhost;Database=FlashcardsApp;Integrated security=true;TrustServerCertificate=True;"
    
    ```
 
